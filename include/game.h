@@ -2,17 +2,16 @@
 
 #include "raylib.h"
 
-struct Game
-{
-	int width         = 640;
-	int height        = 480;
-	const char* title = "Game";
+typedef struct {
+  int width;
+  int height;
+	const char* title;
+} Game;
 
-	/**
-	 * Initialize Raylib etc.
-	 */
-	void init();
-};
+/**
+ * Initialize Raylib etc.
+ */
+void initGame();
 
 extern Game game;
 

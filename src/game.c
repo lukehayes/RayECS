@@ -1,8 +1,7 @@
-/**
- * Global game struct lives here.
- */
+#include "game.h"
 
-typedef struct {
-  int width;
-  int height;
-} Game;
+
+void initGame()
+{
+  // TODO Initialize game struct.
+}
