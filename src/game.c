@@ -1,5 +1,3 @@
-#pragma once
-
 /**
  * Global game struct lives here.
  */
